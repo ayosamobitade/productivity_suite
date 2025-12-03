@@ -51,3 +51,25 @@ The app is designed to **teach PySide6 fundamentals**, **desktop app architectur
 
 ## Project Structure
 
+```
+my_pyside6_app/
+│
+├── venv/ # Virtual environment
+├── requirements.txt # Project dependencies
+├── main.py # Entry point of the app
+├── app/ # Main application package
+│ ├── init.py
+│ ├── main_window.py # Main window with QStackedWidget
+│ ├── sidebar.py # Sidebar navigation
+│ ├── pages/ # Individual pages/modules
+│ │ ├── init.py
+│ │ ├── home_page.py
+│ │ ├── notes_page.py
+│ │ ├── tasks_page.py
+│ │ └── settings_page.py
+│ ├── ui/ # Optional .ui files from Qt Designer
+│ └── widgets/ # Custom widgets
+│ └── init.py
+├── README.md
+└── .gitignore
+```
