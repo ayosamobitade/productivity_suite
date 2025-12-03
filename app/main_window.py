@@ -1,4 +1,4 @@
-from PySide6.QtWidgets import QApplication, QMainWindow, QPushButton, QVBoxLayout, QWidget, QStackedWidget
+from PySide6.QtWidgets import QMainWindow, QHBoxLayout, QWidget, QStackedWidget
 
 
 import sys
@@ -10,11 +10,11 @@ class MainWindow(QMainWindow):
         self.setMinimumSize(1000, 600)
 
         # Central widget
-        central = QWidget
+        central = QWidget()
         self.setCentralWidget(central)
 
         # horizontal layout
-        layout = QVBoxLayout(central)
+        layout = QHBoxLayout(central)
 
         # Sidebar passed into main window
         self.sidebar = sidebar
@@ -24,13 +24,15 @@ class MainWindow(QMainWindow):
         self.pages = QStackedWidget()
         layout.addWidget(self.pages)
 
-        def add_page(self, widget):
-            '''Add a new page to the stacked widget'''
-            self.pages.addWidget(widget)
 
-        def switch_page(self, index):
-            '''Switch to the page at the given index'''
-            self.pages.setCurrentIndex(index)
+    def add_page(self, widget):
+        '''Add a new page to the stacked widget'''
+        self.pages.addWidget(widget)
+
+
+    def switch_page(self, index):
+        '''Switch to the page at the given index'''
+        self.pages.setCurrentIndex(index)
 
 
 

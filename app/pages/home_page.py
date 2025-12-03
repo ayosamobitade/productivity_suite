@@ -6,5 +6,5 @@ class HomePage(QWidget):
 
         layout = QVBoxLayout(self)
 
-        label = QLabel("Welcome to the Home Page!")
-        layout.addWidget(label)
+        
+        layout.addWidget(QLabel("Home Page!"))
