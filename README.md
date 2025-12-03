@@ -1,1 +1,53 @@
-# productivity_suite
+# Productivity Suite Desktop App
+
+A **cross-platform desktop application** built with **PySide6 (Qt for Python)**.  
+This project is a **full-featured personal productivity suite** including:
+
+- Notes  
+- Tasks / To-Do List  
+- Calendar  
+- Dashboard  
+- File Manager  
+- Image Viewer  
+- Media Player  
+- Settings & Themes  
+
+The app is designed to **teach PySide6 fundamentals**, **desktop app architecture**, and **professional project structuring**.
+
+---
+
+## Table of Contents
+
+- [Features](#features)  
+- [Screenshots](#screenshots)  
+- [Project Structure](#project-structure)  
+- [Installation](#installation)  
+- [Usage](#usage)  
+- [Technologies](#technologies)  
+- [Contributing](#contributing)  
+- [License](#license)
+
+---
+
+## Features
+
+### Core Modules
+- **Notes** – Create, edit, delete notes, autosave feature  
+- **Tasks** – Add, complete, delete tasks, SQLite database storage  
+- **Calendar** – Event management and reminders  
+- **Dashboard** – Display charts of tasks, notes, and activity  
+- **File Manager** – Browse directories and open files  
+- **Image Viewer** – Zoom, rotate, and preview images  
+- **Media Player** – Play audio/video files with playlist support  
+- **Settings** – Dark/Light mode, font preferences, persistent user configs
+
+---
+
+## Screenshots
+
+*(Add screenshots here once the UI is ready)*
+
+---
+
+## Project Structure
+
