@@ -136,7 +136,7 @@ file for details.
 
 ## Contact
 
-Developed by Your Name – ayosamobitade @gmail.com
+Developed by Ayobami Samuel Obitade – ayosamobitade @gmail.com
 
 GitHub: https://github.com/ayosamobitade
 
