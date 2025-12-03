@@ -1,0 +1,96 @@
+# ----------------------------------------
+# Python
+# ----------------------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.spec
+.eggs/
+develop-eggs/
+.installed.cfg
+*.egg-info/
+pip-wheel-metadata/
+wheels/
+share/python-wheels/
+*.manifest
+*.spec
+
+# Byte-compiled / optimized / DLL files
+*$py.class
+
+# ----------------------------------------
+# Virtual Environment
+# ----------------------------------------
+venv/
+.env/
+.env*/ 
+.venv/
+.venv*/
+
+# ----------------------------------------
+# Qt / PySide6 Artifacts
+# ----------------------------------------
+*.qss~
+*.qmlc
+*.jsc
+*.rcc
+*.qrc~
+
+# Qt Designer autosave
+*.ui.autosave
+
+# ----------------------------------------
+# Local Databases & Storage
+# ----------------------------------------
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+*.sqlite-shm
+*.sqlite-wal
+local_storage/
+
+# ----------------------------------------
+# Logs & Caches
+# ----------------------------------------
+*.log
+logs/
+.cache/
+.cache*/ 
+__logs__/
+
+# ----------------------------------------
+# System Files
+# ----------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.swp
+*~.bak
+*.tmp
+*.temp  
+
+# ----------------------------------------
+# Packaging / Installer outputs
+# ----------------------------------------
+*.exe
+*.dll
+*.app
+*.deb
+*.AppImage
+*.msi
+*.dmg
+
+# PyInstaller temp
+*pyinstaller*/ 
+build/
+dist/
