@@ -52,7 +52,7 @@ The app is designed to **teach PySide6 fundamentals**, **desktop app architectur
 ## Project Structure
 
 ```
-my_pyside6_app/
+productivity_suite/
 │
 ├── venv/ # Virtual environment
 ├── requirements.txt # Project dependencies
@@ -73,3 +73,26 @@ my_pyside6_app/
 ├── README.md
 └── .gitignore
 ```
+
+
+---
+
+## Installation
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/ayosamobitade/productivity_suite.git
+cd my_pyside6_app
+```
+
+### 2. Create Virtual Environment
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
+### 2. Install Dependencies
+pip install --upgrade pip
+pip install -r requirements.txt
+
