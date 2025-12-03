@@ -93,6 +93,58 @@ source venv/bin/activate
 ```
 
 ### 2. Install Dependencies
+```bash
 pip install --upgrade pip
 pip install -r requirements.txt
 
+```
+
+## Usage
+
+Run the application:
+```bash
+python main.py
+```
+
+You should see the Main Window with the sidebar navigation.
+Click the buttons to switch between Home, Notes, Tasks, and Settings pages.
+
+## Technologies
+
+- Python 3.11+
+- PySide6 (Qt for Python)
+- SQLite – For local database storage
+- Qt Designer – Optional UI design tool
+- PyInstaller – For packaging into executables
+
+## Contributing
+
+Contributions are welcome! Here’s how to contribute:
+
+- Fork the repository
+- Create a feature branch (git checkout -b feature/YourFeature)
+- Commit your changes (git commit -m "Add some feature")
+- Push to the branch (git push origin feature/YourFeature)
+- Create a pull request
+
+## License
+
+This project is licensed under the MIT License.
+See the LICENSE
+
+file for details.
+
+## Contact
+
+Developed by Your Name – ayosamobitade @gmail.com
+
+GitHub: https://github.com/ayosamobitade
+
+## Notes
+
+- Designed as a learning project to master PySide6 and desktop app development.
+- Can be extended with Notes search, advanced task filtering, calendar events, and more.
+- All assets (icons, images) should be stored in the app/ui folder for organization.
+
+
+---
