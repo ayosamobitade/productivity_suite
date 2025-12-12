@@ -1,0 +1,37 @@
+<RCC>
+  <qresource>
+    <file>sidebar_images/dashboard-svgrepo-com.svg</file>
+    <file>sidebar_images/dashboard-svgrepo-com(1).svg</file>
+    <file>sidebar_images/dashboard-svgrepo-com(2).svg</file>
+    <file>sidebar_images/exit-svgrepo-com.svg</file>
+    <file>sidebar_images/exit-svgrepo-com(1).svg</file>
+    <file>sidebar_images/exit-svgrepo-com(2).svg</file>
+    <file>sidebar_images/file-pencil-alt-svgrepo-com.svg</file>
+    <file>sidebar_images/file-pencil-alt-svgrepo-com(1).svg</file>
+    <file>sidebar_images/file-pencil-alt-svgrepo-com(2).svg</file>
+    <file>sidebar_images/image-picture-svgrepo-com.svg</file>
+    <file>sidebar_images/image-picture-svgrepo-com(1).svg</file>
+    <file>sidebar_images/media-music-play-social-sound-tone-svgrepo-com.svg</file>
+    <file>sidebar_images/media-music-play-social-sound-tone-svgrepo-com(1).svg</file>
+    <file>sidebar_images/media-music-play-social-sound-tone-svgrepo-com(2).svg</file>
+    <file>sidebar_images/notes-svgrepo-com.svg</file>
+    <file>sidebar_images/notes-svgrepo-com(1).svg</file>
+    <file>sidebar_images/notes-svgrepo-com(2).svg</file>
+    <file>sidebar_images/notes-svgrepo-com(3).svg</file>
+    <file>sidebar_images/profilepicture.png</file>
+    <file>sidebar_images/search-alt-svgrepo-com.svg</file>
+    <file>sidebar_images/search-alt-svgrepo-com(1).svg</file>
+    <file>sidebar_images/search-alt-svgrepo-com(2).svg</file>
+    <file>sidebar_images/settings-cog-svgrepo-com.svg</file>
+    <file>sidebar_images/settings-cog-svgrepo-com(1).svg</file>
+    <file>sidebar_images/settings-cog-svgrepo-com(2).svg</file>
+    <file>sidebar_images/task-svgrepo-com.svg</file>
+    <file>sidebar_images/task-svgrepo-com(1).svg</file>
+    <file>sidebar_images/task-svgrepo-com(2).svg</file>
+    <file>sidebar_images/toggle-column-svgrepo-com.svg</file>
+    <file>sidebar_images/toggle-column-svgrepo-com(1).svg</file>
+    <file>sidebar_images/toggle-column-svgrepo-com(2).svg</file>
+    <file>sidebar_images/user1.svg</file>
+    <file>sidebar_images/user2.svg</file>
+  </qresource>
+</RCC>

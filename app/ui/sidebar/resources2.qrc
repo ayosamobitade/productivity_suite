@@ -1,0 +1,10 @@
+<RCC>
+  <qresource>
+    <file>more_sidebar_images/calendar-days-svgrepo-com.svg</file>
+    <file>more_sidebar_images/calendar-days-svgrepo-com(1).svg</file>
+    <file>more_sidebar_images/calendar-days-svgrepo-com(2).svg</file>
+    <file>more_sidebar_images/settings-svgrepo-com.svg</file>
+    <file>more_sidebar_images/settings-svgrepo-com(1).svg</file>
+    <file>more_sidebar_images/settings-svgrepo-com(2).svg</file>
+  </qresource>
+</RCC>
