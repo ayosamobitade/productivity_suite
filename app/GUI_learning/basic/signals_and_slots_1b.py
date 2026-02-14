@@ -1,4 +1,4 @@
-from PySide6.QtWidgets import QApplication, QWidget, QPushButton, QMainWindow
+from PySide6.QtWidgets import QApplication, QMainWindow, QPushButton
 
 import sys
 
@@ -10,13 +10,17 @@ class MainWindow(QMainWindow):
 
         button = QPushButton("Press me")
         button.setCheckable(True)
+
         button.clicked.connect(self.on_button_clicked)
+        button.clicked.connect(self.the_button_was_toggled)
 
         self.setCentralWidget(button)
 
-        
     def on_button_clicked(self):
         print("Button was clicked!")
+
+    def the_button_was_toggled(self, checked):
+        print(f"Button toggled: {'Checked' if checked else 'Unchecked'}")
 
 
 app = QApplication(sys.argv)
